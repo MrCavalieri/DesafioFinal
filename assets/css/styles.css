@@ -1,0 +1,100 @@
+body {
+  background-color: rgb(156, 139, 44);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+.container {
+  background-color: black;
+  color: silver;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  text-align: center;
+  width: 400px;
+}
+
+h1 {
+  margin-bottom: 20px;
+}
+
+.input-group {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+  width: 100%;
+}
+
+.input-prefix {
+  background-color: silver;
+  color: black;
+  padding: 10px;
+  border: none;
+  border-radius: 5px 0 0 5px;
+  font-size: 16px;
+  font-weight: bold;
+  width: 80px;
+  text-align: center;
+  box-sizing: border-box;
+}
+
+input[type="number"] {
+  appearance: textfield;
+}
+
+input,
+select,
+button {
+  width: calc(100% - 80px);
+  margin: 0;
+  padding: 10px;
+  border: none;
+  font-size: 16px;
+  color: black;
+  box-sizing: border-box;
+}
+
+input {
+  background-color: silver;
+  border-radius: 0 5px 5px 0;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+select {
+  background-color: silver;
+  border-radius: 0 5px 5px 0;
+  text-align: center;
+  appearance: menulist;
+}
+
+button {
+  background-color: silver;
+  color: black;
+  cursor: pointer;
+  font-weight: bold;
+  margin-top: 10px;
+  border-radius: 5px;
+}
+
+button:hover {
+  background-color: darkgrey;
+}
+
+#resultado {
+  margin-top: 20px;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+canvas {
+  margin-top: 20px;
+}
